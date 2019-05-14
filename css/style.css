@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+h3 { 
+    font-weight: 200;
+}
+
+h2 { 
+    background: #6aade4;
+    color: white;
+    padding: 4px;
+}
+
+table {
+    font: 12px sans-serif;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.rect {
+    color: 'blue';
+}
+
+.bar-mark {
+    font: 11px sans-serif;
+    text-anchor: middle;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 220px;
+    height: 160px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px;
+    border-color: gray;
+    pointer-events: none;
+}
+
+h4{ 
+    color: red;
+}
+
+text.avgLabel{ 
+    background:gray;
+}
